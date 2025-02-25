@@ -21,8 +21,8 @@
         </div>
     </div>
 
-    <!-- Dashboard Layout -->
-    <div class="row mt-4 text-center">
+    <!-- Centered Dashboard Layout -->
+    <div class="row mt-4 justify-content-center text-center">
         <div class="col-md-3 mb-3">
             <div class="card p-3 shadow-sm" style="min-height: 120px;">
                 <h6>Total Products:</h6>
@@ -49,12 +49,13 @@
         </div>
     </div>
 
+
     <!-- Product Slideshow -->
     <div class="row mt-4 mb-4">
         <div class="col-12">
             <div class="card p-3 shadow-sm text-center">
                 <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner" style="height: 300px;"> <!-- Smaller height -->
+                    <div class="carousel-inner" style="height: 300px;"> <!-- Set height to keep uniformity -->
                         <div class="carousel-item active">
                             <img src="{% static '/h3.jpg' %}" class="d-block w-100 h-100" alt="slideshow 1" style="object-fit: cover;">
                         </div>
@@ -74,7 +75,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 
     <!-- Transactions & Low Stock -->
     <div class="row mt-4">
